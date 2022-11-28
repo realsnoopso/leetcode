@@ -1,0 +1,15 @@
+https://leetcode.com/problems/binary-search/?envType=study-plan&id=algorithm-i
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
+
+ 
+// my answer
+
+const search = function (nums, target) {
+    const isContained = (e) => e === target;
+    return nums.findIndex(isContained)
+}
